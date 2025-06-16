@@ -663,8 +663,18 @@
     .servi-point-sec-left-box p{
         text-align: justify;
     }
-    .service-detailed-sec h2{
+    .servi-point-sec-left-box h2{
+        margin: 0;
+        padding: 0;
+    }
+    .service-detailed-sec-tit{
         text-align: left !important;
+        padding: 0rem 0rem 0rem 2rem;
+        margin: 0;
+    }
+    .service-detailed-sec-para{
+        text-align: left;
+        padding: 2rem 2rem 0rem;
     }
     .service-detailed-small-tit{
         text-align: left;
