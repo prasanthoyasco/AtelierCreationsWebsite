@@ -64,7 +64,7 @@
     .card-date{
         display: grid;
         place-content: center;
-        font-size: 12px;
+        font-size: 8px;
     }
 
     .service-btn::before{
@@ -89,12 +89,14 @@
     }
     .contact-us-tit{
         font-size: 40px;
+        line-height: normal;
         width: fit-content;
     }
     .bg-txt-1{
         font-size: 56px;
         font-weight: 800;
-        line-height: 3rem;
+        left: 5%;
+        line-height: 4rem;
     }
     .form-container{
         display: grid;
@@ -295,6 +297,7 @@
     }
     .what-we-do-sec{
         position: relative;
+        background-color: transparent;
         top: -5rem;
         margin-top: -30%;
     }
@@ -323,8 +326,8 @@
 
     }
     .tit-wraper-2{
-        width: 60%;
-        margin: 1rem auto 1rem;
+        width: 70%;
+        margin: 1rem auto 1rem 6rem;
         position: relative;
         transform: translateX(0px);
     }
@@ -359,8 +362,16 @@
         width: 200%;
         height: 500px;
     }
+    .testimonial-cards{
+        height: auto !important;
+    }
+    .testimo-inner-card-top{
+        gap: 1rem;
+        align-items: center;
+    }
     .reviwers{
-      bottom: 10px;
+      position: static;
+      margin: 1rem auto;
     }
     .reviwers-name{
         font-size: 20px;
@@ -388,6 +399,9 @@
     }
     .landing-page-main-sec  .col-md-12{
         padding: 0px;
+    }
+    .case-study-sec{
+        top: 0rem;
     }
     .testimo-tit{
         transform: translateX(0px);
@@ -423,7 +437,7 @@
         font-size: 14px;
     }
     .h-w-w-card-cont-1{
-        text-align: left;
+        text-align: center;
         width: 90%;
         padding: 1rem ;
     }
@@ -431,7 +445,7 @@
         font-size: 14px;
     }
     .h-w-w-card-cont{
-        text-align: right;
+        text-align: center;
         width: 90%;
         padding: 1rem;
     }
@@ -439,7 +453,7 @@
         font-size: 12px;
     }
     .card-head{
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
     .content-marketing-main-tit{
         font-size: 20px;
@@ -464,13 +478,13 @@
     }
     .content-marketing-sec{
         position: relative;
-        top: 0px;
+        top: 0rem;
         padding: 6rem 0rem 1rem 0rem;
         overflow: hidden;
     }
     .what-we-do-sec-1{
         position: relative;
-        top: 0px;
+        top: 0rem;
     }
     .discover-part1-img-1, .discover-part1-img-2, .discover-part2-img-1, .discover-part2-img-2{
         position: relative;
@@ -514,7 +528,7 @@
     }
     .contact-us-sec{
         position: relative;
-        top: 0px;
+        top: 0rem
     }
     .right-card-top-container{
         display: grid;
@@ -611,6 +625,10 @@
     }
     .social-media-sec{
         padding: 3rem 0rem;
+        top: 0;
+    }
+    .freelancer-hub-sec{
+        top: 0rem;
     }
     .social-media-icons{
         width: 70%;
@@ -695,6 +713,7 @@
     }
     .case-study-container{
         grid-template-columns: 100%;
+        margin: 3rem auto;
     }
     .case-study-numbers{
         grid-template-columns: 100%;

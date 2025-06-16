@@ -33,10 +33,10 @@ const Testimonial = () => {
         spaceBetween={0}
         slidesPerView={2}
         loop={true}
-        autoplay={{
-          delay: 3000,   // Delay between slides (in ms)
-          disableOnInteraction: true,  // Keep autoplay running after user interactions
-        }}
+        // autoplay={{
+        //   delay: 3000,   // Delay between slides (in ms)
+        //   disableOnInteraction: true,  // Keep autoplay running after user interactions
+        // }}
         navigation={{
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
