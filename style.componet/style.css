@@ -2610,7 +2610,7 @@ section .service-btn-cmc {
     position: relative;
     padding: 12rem 0rem;
     place-content: center;
-    background-color: #111111;
+    background-color: #000000;
 }
 
 .case-study-sec .tit-wraper-2{
