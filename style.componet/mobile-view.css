@@ -88,9 +88,13 @@
         grid-template-columns: 100%;
     }
     .contact-us-tit{
-        font-size: 40px;
+        font-size: 32px;
         line-height: normal;
         width: fit-content;
+    }
+    .contact-us-para span{
+        display: inline;
+        font-size: 18px;
     }
     .bg-txt-1{
         font-size: 56px;
@@ -695,15 +699,30 @@
         line-height: 2.2rem;
     }
     .service-carosoul-tit::before{
-            background-size: contain;
+    background-size: contain;
+    bottom: -60%;
     height: 100%;
     width: 80%;
     }
     .service-carosoul-sec .swiper{
         width: 300%;
     }
+    .swiper-button-next::after,.swiper-button-prev:after{
+        font-size: 15px ! important;
+    }
+    .service-carosoul-container .swiper-button-prev,
+    .service-carosoul-container  .swiper-button-next{
+        background-color: #ebebeb3d;
+        width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    }
     .service-carosoul-cards{
-        width: 90%;
+        width: 94%;
+    }
+    .service-carosoul-cards > p{
+        line-height: 1.4rem;
+        padding: 1rem 0rem;
     }
     .service-carosoul-sec > p{
         width: 80%;
@@ -760,6 +779,16 @@
     }
     .footer-sec{
         padding: 3rem 0rem 3rem;
+    }
+    .accordion-button {
+        line-height: normal;
+        /* padding: 1rem; */
+    }
+    .accordion-body{
+        text-align: left;
+    }
+    .accordion-button::before{
+        left: 20;
     }
 
 } 
