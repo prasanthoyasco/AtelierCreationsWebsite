@@ -98,7 +98,7 @@ function Services() {
                       </div>
                       <h3 className="service-card-tit">{service.title}</h3>
                       <p className="sev-card-cont">{service.desc}</p>
-                      <a className="service-card-btn" onClick={()=>navigate(service.link)}>
+                      <a className="service-card-btn cursor-pointer" href="" onClick={()=>navigate(service.link)}>
                         Read More
                       </a>
                     </div>
