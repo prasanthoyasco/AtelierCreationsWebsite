@@ -39,7 +39,7 @@ window.addEventListener("scroll", () => {
                   <li><a href="/#about-us">About</a></li>
                   <li> <a href="/#services">Services</a></li>
                   <li className="nav-pages"><a href="/#case-study">Case study</a></li>
-                  <li> <a href="/#freelancers-hub">Careers</a></li>
+                  <li> <a href="https://forms.gle/Z93DK6jRqdWmGGxZ9">Careers</a></li>
                   <li><a href="/#blogs">Blogs</a></li>
                </ul>
 
