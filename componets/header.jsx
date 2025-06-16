@@ -4,19 +4,25 @@ import { Link } from "react-router-dom";
 
 function Header(){
    useEffect(() => {
-      const nav = document.getElementById('nav');
-      let top = window.scrollY;
-      window.addEventListener("scroll", () => {
-      
-          if(top < window.scrollY){
-            nav.classList.add("hide-nav");
-          }else{
-            nav.classList.remove("hide-nav");
-          }
-    
-        top = window.scrollY;
-            
-        })
+     const nav = document.getElementById('nav');
+let top = window.scrollY;
+
+window.addEventListener("scroll", () => {
+  if (top < window.scrollY) {
+    nav.classList.add("hide-nav");
+  } else {
+    nav.classList.remove("hide-nav");
+  }
+
+  // Update scroll position
+  top = window.scrollY;
+
+  // Remove section ID from URL if present
+  if (window.location.hash) {
+    history.replaceState("", document.title, window.location.pathname + window.location.search);
+  }
+});
+
     }, []);
    return (
     <>
