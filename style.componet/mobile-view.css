@@ -679,8 +679,15 @@
         font-size: 14px;
     }
     .faq-tit{
-        width: 90%;
-        margin: 0rem auto;
+        width: 100%;
+        margin: auto 1rem ;
+        text-align: left;
+        line-height: 2.2rem;
+    }
+    .service-carosoul-tit::before{
+            background-size: contain;
+    height: 100%;
+    width: 80%;
     }
     .service-carosoul-sec .swiper{
         width: 300%;
@@ -694,6 +701,7 @@
     }
     .service-carosoul-tit{
         font-size: 30px;
+        line-height: 2.5rem;
     }
     .service-carosoul-sec{
         overflow: hidden;
