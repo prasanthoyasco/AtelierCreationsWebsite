@@ -663,8 +663,11 @@
     .servi-point-sec-left-box p{
         text-align: justify;
     }
+    .service-detailed-sec h2{
+        text-align: left !important;
+    }
     .service-detailed-small-tit{
-        text-align: center;
+        text-align: left;
     }
     .contact-card-inside-cont{
         width: 90%;
