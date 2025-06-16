@@ -2451,8 +2451,8 @@ section .service-btn-cmc {
 
 .service-carosoul-cards {
     border: 2px solid white;
-    width: 417px;
-    height: 500px;
+    width: 350px;
+    height: 300px;
     margin: 0rem auto;
     border-radius: 11px;
     padding: 2rem;

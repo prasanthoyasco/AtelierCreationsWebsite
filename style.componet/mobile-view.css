@@ -733,6 +733,12 @@
         width: 100%;
         margin: 0rem auto;
     }
+    .service-carosoul-cards{
+        height: 250px;
+    }
+    .footer-sec{
+        padding: 3rem 0rem 3rem;
+    }
 
 } 
 
