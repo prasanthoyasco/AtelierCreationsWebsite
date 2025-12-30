@@ -38,8 +38,8 @@ const Home = () => {
       <BenefitsWWU />
       <ContentMarketing />
       {/* <DiscoverUs /> */}
-      {/* <Contacts />
-      <SocialMediaSec /> */}
+      <Contacts />
+      <SocialMediaSec />
       {/* <FreelancerHub /> */}
       {/* <Footer /> */}
     </>
