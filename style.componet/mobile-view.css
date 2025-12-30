@@ -941,6 +941,12 @@
         margin: 0;
         padding-left: 1rem;
     }
+    .contact-card-sec{
+        margin: 2rem;
+    }
+    .faq-section{
+        padding-bottom: 0;
+    }
 }
 @media (max-width:380px) {
     .home-page-first-sec-left{
