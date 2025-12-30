@@ -68,7 +68,7 @@ function Services() {
   const navigate = useNavigate();
   return (
     <>
-      <section id="services" className="services-sec overflow-hidden">
+      <section id="services" className="services-sec">
         <div className="container-fluid">
           <div className="row">
             <div className="our-container">

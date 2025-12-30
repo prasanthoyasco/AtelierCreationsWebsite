@@ -837,6 +837,18 @@
     .case-study-sec::after{
         bottom: -1px;
     }
+    .case-study-sec{
+        padding-bottom: 2rem;
+    }
+    .what-we-do-sec-1{
+        top: -11rem;
+    }
+    .case-study-container{
+        margin: 0 auto;
+    }
+    .services-sec{
+        top: -3px;
+    }
 }
 @media (max-width:380px) {
     .home-page-first-sec-left{

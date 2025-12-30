@@ -35,8 +35,8 @@ const Home = () => {
       <HowWeWork />
       <Testimonial />
       <CaseStudy />
-      {/* <BenefitsWWU />
-      <ContentMarketing /> */}
+      <BenefitsWWU />
+      {/* <ContentMarketing /> */}
       {/* <DiscoverUs /> */}
       {/* <Contacts />
       <SocialMediaSec /> */}
