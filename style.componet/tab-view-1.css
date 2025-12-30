@@ -200,4 +200,18 @@
     .services-data-grid{
         width: 49.9%;
     }
+    .case-study-numbers{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .case-study-container{
+        grid-template-columns: 100%;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+        .tit-wraper-2 {
+        width: 80%;
+        margin: 1rem auto 0rem 9rem;
+        position: relative;
+        transform: translateX(0px);
+    }
 }

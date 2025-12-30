@@ -31,10 +31,9 @@ const Testimonial = () => {
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]} // Add Autoplay module
         spaceBetween={0}
-        slidesPerView={2}
         loop={true}
         autoplay={{
-          delay: 3000,   // Delay between slides (in ms)
+          delay: 300000,   // Delay between slides (in ms)
           disableOnInteraction: true,  // Keep autoplay running after user interactions
         }}
         navigation={{
@@ -43,6 +42,23 @@ const Testimonial = () => {
         }}
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
+          breakpoints={{
+    0: {
+      slidesPerView: 1,   // Mobile (0px - 575px)
+    },
+    576: {
+      slidesPerView: 1, // Small tablets
+    },
+    768: {
+      slidesPerView: 1,   // Tablets
+    },
+    992: {
+      slidesPerView: 2,   // Small desktop
+    },
+    1200: {
+      slidesPerView: 2,   // Large desktop
+    },
+  }}
         // onSwiper={(swiper) => console.log(swiper)}
         // onSlideChange={() => console.log('slide change')}
       >

@@ -825,6 +825,18 @@
     .h-w-w-card-cont-1 p{
         margin-bottom: 0
     }
+    .swiper{
+        height: fit-content;
+    }
+    .case-study-sec::before{
+        height: 162px;
+    }
+    .case-study-sec{
+        top: -5rem;
+    }
+    .case-study-sec::after{
+        bottom: -1px;
+    }
 }
 @media (max-width:380px) {
     .home-page-first-sec-left{

@@ -34,8 +34,8 @@ const Home = () => {
       <WhatWeDo />
       <HowWeWork />
       <Testimonial />
-      {/* <CaseStudy />
-      <BenefitsWWU />
+      <CaseStudy />
+      {/* <BenefitsWWU />
       <ContentMarketing /> */}
       {/* <DiscoverUs /> */}
       {/* <Contacts />
