@@ -925,6 +925,9 @@
     .service-carosoul-container{
         padding-bottom: 0;
     }
+        .mobile-development-page-grid{
+        width: 100%;
+    }
 }
 @media (max-width:380px) {
     .home-page-first-sec-left{

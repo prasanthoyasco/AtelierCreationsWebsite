@@ -480,4 +480,13 @@
         height: fit-content;
         width: 80%;
     }
+    .service-btn{
+        display: none;
+    }
+    .mobile-development-page-grid{
+        width: 49.9%;
+    }
+    .sec-listing-wrap .services-sec{
+        padding-top: 0;
+    }
 }
