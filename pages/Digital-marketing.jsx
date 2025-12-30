@@ -52,7 +52,7 @@ const digitalMarketing = () => {
             <div className="our-container-1">
               <div className="row justify-content-center">
                 {/* Service Card 1 */}
-                <div className="col-md-4 ">
+                <div className="col-md-4 mobile-development-page-grid">
                   <div className="service-card " data-aos="fade-up" data-aos-duration="1000">
                     <div className="srv-card-icon">
                       <img src={SocialMediaMarketing} alt="" height="" width="" loading="lazy" title="" />
@@ -69,7 +69,7 @@ const digitalMarketing = () => {
                   </div>
                 </div>
                 
-                <div className="col-md-4 " >
+                <div className="col-md-4 mobile-development-page-grid" >
                   <div className="service-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                     <div className="srv-card-icon">
                       <img src={GraphicDesigning} alt="" height="" width="" loading="lazy" title="" />
@@ -86,7 +86,7 @@ const digitalMarketing = () => {
                   </div>
                 </div>
 
-                <div className="col-md-4 " >
+                <div className="col-md-4 mobile-development-page-grid" >
                   <div className="service-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                     <div className="srv-card-icon">
                       <img src={SoftwareDevelopment} alt="" height="" width="" loading="lazy" title="" />
