@@ -27,7 +27,7 @@ const Home = () => {
     content="Atelier is a top creative designing &  digital marketing agency in Coimbatore, offering SEO, SMM, Ads, web design, app design & online branding services."
     />
     </Helmet>
-    {/* <LandingPage />    */}
+    <LandingPage />   
       <Header />
       <FirstSection />
       <Services />

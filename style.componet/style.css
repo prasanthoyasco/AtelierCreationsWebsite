@@ -2889,3 +2889,7 @@ transition: 0.5s;
     height: 175px;
     object-fit: cover;
 }
+    .hero-title.mobile-view{
+        display: none;
+    }
+    

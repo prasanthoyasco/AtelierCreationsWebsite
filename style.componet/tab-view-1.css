@@ -259,4 +259,17 @@
         padding-top: 0;
         padding-bottom: 0;
     }
+    .hero-title.mobile-view{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+                gap: 20px;
+    }
+    .hero-title{
+        display: none;
+    }
+    .span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12, .span13, .span14, .span15, .span16, .span17, .span18{
+        width: 100% !important;
+
+    }
 }

@@ -878,6 +878,9 @@
         margin-top: -11rem;
         padding-bottom: 2rem;
     }
+    .span-gap{
+        display: block;
+    }
 }
 @media (max-width:380px) {
     .home-page-first-sec-left{
