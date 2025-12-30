@@ -41,7 +41,7 @@ const Home = () => {
       <Contacts />
       <SocialMediaSec />
       {/* <FreelancerHub /> */}
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }

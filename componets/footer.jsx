@@ -76,6 +76,7 @@ function Footer(){
                             <li><a href="#">Pricing Single</a></li>
                             <li><a href="#">Contact</a></li>
                             <li><a href="#">Services</a></li>
+                            <li><a href="https://ateliertechnologysolutions.com/" target="_blank">Technology</a></li>
                         </ul>
                       </div>
                       <div className="footer-quick-col-2">

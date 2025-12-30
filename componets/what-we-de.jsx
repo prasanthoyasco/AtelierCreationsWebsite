@@ -10,7 +10,7 @@ import PaidAds from "../src/assets/what-we-do/paid-ads.svg"
 function whatWeDo(){
    return (
     <>
-    <section id="about-us"  className="what-we-do-sec mt-0" >
+    <section id="about-us"  className="what-we-do-sec" >
       <div className="container-2">
         <div className="row">
         <div className="col-lg-6 col-10 mx-auto">

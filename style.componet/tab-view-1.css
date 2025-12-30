@@ -231,4 +231,32 @@
     .content-m-main-img img{
         width: 100%;
     }
+    .footer-quick-link{
+        flex-wrap: wrap;
+    }
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-right-card{
+        width: 90%;
+    }
+    .footer-left-card{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-marketing-img{
+        width: 40%;
+    }
+    .footer-social-m-link{
+        display: flex;
+        gap: 20px;
+    }
+    .footer-sec{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
 }

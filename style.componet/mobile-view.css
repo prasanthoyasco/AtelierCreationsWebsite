@@ -301,8 +301,6 @@
     .what-we-do-sec{
         position: relative;
         background-color: transparent;
-        top: -5rem;
-        margin-top: -30%;
     }
     .what-we-do-secondry-tit{
         font-size: 25px;
@@ -847,7 +845,8 @@
         margin: 0 auto;
     }
     .services-sec{
-        top: -3px;
+        top: -3rem;
+        z-index: -99;
     }
     .content-marketing-sec{
         top: -14rem;
@@ -860,6 +859,24 @@
     }
     .social-sub-container{
         padding: 0;
+    }
+    .footer-sec{
+        margin-top: -12rem;
+    }
+        .footer-left-card{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+        .footer-sec{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .what-we-do-sec{
+        margin-top: -11rem;
+        padding-bottom: 2rem;
     }
 }
 @media (max-width:380px) {
