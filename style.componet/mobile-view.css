@@ -852,6 +852,15 @@
     .content-marketing-sec{
         top: -14rem;
     }
+    .contact-us-sec{
+        top: -12rem;
+    }
+    .social-media-sec{
+        top: -12rem;
+    }
+    .social-sub-container{
+        padding: 0;
+    }
 }
 @media (max-width:380px) {
     .home-page-first-sec-left{
