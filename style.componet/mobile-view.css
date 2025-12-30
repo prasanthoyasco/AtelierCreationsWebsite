@@ -845,8 +845,7 @@
         margin: 0 auto;
     }
     .services-sec{
-        top: -3rem;
-        z-index: -99;
+        top: 0rem;
     }
     .content-marketing-sec{
         top: -14rem;
@@ -875,7 +874,7 @@
         padding-bottom: 0;
     }
     .what-we-do-sec{
-        margin-top: -11rem;
+        margin-top: -7rem;
         padding-bottom: 2rem;
     }
     .span-gap{
@@ -883,6 +882,10 @@
     }
     .hero-contnt-wrap{
         width: 90%;
+    }
+    .home-page-first-sec{
+        z-index: 9999;
+        margin-bottom: 0;
     }
 }
 @media (max-width:380px) {
