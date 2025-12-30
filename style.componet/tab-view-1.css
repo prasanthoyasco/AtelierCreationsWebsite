@@ -489,4 +489,19 @@
     .sec-listing-wrap .services-sec{
         padding-top: 0;
     }
+        .service-detailed-sec-tit{
+        padding-left: 1rem;
+    }
+        .service-detailed-sec{
+        padding: 0;
+    }
+        .service-detailed-sec{
+        text-align: start;
+    }
+    .service-detailed-main-para{
+        width: 95%;
+    }
+    .service-detailed-sec h2{
+        padding-left: 1rem;
+    }
 }

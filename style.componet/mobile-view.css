@@ -947,6 +947,9 @@
     .faq-section{
         padding-bottom: 0;
     }
+        .service-detailed-sec h2{
+        padding-left: 0rem;
+    }
 }
 @media (max-width:380px) {
     .home-page-first-sec-left{
