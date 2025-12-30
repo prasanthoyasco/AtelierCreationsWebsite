@@ -881,6 +881,9 @@
     .span-gap{
         display: block;
     }
+    .hero-contnt-wrap{
+        width: 90%;
+    }
 }
 @media (max-width:380px) {
     .home-page-first-sec-left{
