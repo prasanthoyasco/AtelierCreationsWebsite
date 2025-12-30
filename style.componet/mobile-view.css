@@ -818,11 +818,15 @@
         margin-top: 10px;
         height: fit-content;
     }
-    .h-w-w-card-cont{
+    .h-w-w-card-cont,
+    .h-w-w-card-cont-1{
         padding-bottom: 0;
     }
+    .h-w-w-card-cont-1 p{
+        margin-bottom: 0
+    }
 }
-@media (max-width:320px) {
+@media (max-width:380px) {
     .home-page-first-sec-left{
         padding: 1rem 2rem;
     }
