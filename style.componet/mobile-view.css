@@ -854,13 +854,10 @@
         top: -12rem;
     }
     .social-media-sec{
-        top: -12rem;
+        margin-top: -12rem;
     }
     .social-sub-container{
         padding: 0;
-    }
-    .footer-sec{
-        margin-top: -12rem;
     }
         .footer-left-card{
         width: 90%;
@@ -886,6 +883,47 @@
     .home-page-first-sec{
         z-index: 9999;
         margin-bottom: 0;
+    }
+    .servi-point-sec-left-box{
+        padding: 1rem;
+    }
+    .seri-first-img{
+        width: 90%;
+    }
+    .service-detailed-sec{
+        padding: 0;
+    }
+    .srv-detai-sec-contain{
+        padding: 1rem 0;
+    }
+    .service-detai-cont-card{
+        align-items: start;
+        padding: 0 1rem;
+    }
+    .service-detai-cont-card p{
+        text-align: start;
+    }
+    .service-detailed-sec-tit{
+        padding-left: 1rem;
+    }
+    .service-detailed-small-tit{
+        margin: 0;
+    }
+    .service-detailed-main-img{
+        height: 40vh;
+        width: 90%;
+    }
+    .extra-cont-light{
+        padding: 1rem;
+    }
+    .extra-cont-light{
+        row-gap: 0;
+    }
+    .service-carosoul-sec{
+        padding: 0;
+    }
+    .service-carosoul-container{
+        padding-bottom: 0;
     }
 }
 @media (max-width:380px) {
