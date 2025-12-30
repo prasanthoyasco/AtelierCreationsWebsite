@@ -157,3 +157,47 @@
     } */
 
 }
+.mobile-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 999;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.mobile-dropdown ul {
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+}
+
+.mobile-dropdown li {
+  padding: 10px 0;
+}
+
+.mobile-dropdown a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #000;
+}
+
+@media (max-width:991px) {
+    .handburger-menu{
+        display: flex;
+        gap: 7px;
+    }
+    .header{
+        justify-content: space-between;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .home-page-first-sec{
+        left: 0;
+    }
+    .services-data-grid{
+        width: 49.9%;
+    }
+}

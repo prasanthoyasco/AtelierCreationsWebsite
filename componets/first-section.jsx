@@ -18,7 +18,7 @@ function FirstSection(){
     <section  id="home-page-first-sec"  className="home-page-first-sec" data-aos="slide-up" data-aos-delay="0" data-aos-duration="2000" >
         <div className="container-fluid">
             <div className="row">
-                <div className="col-md-6">
+                <div className="col-lg-6 col-12 px-0 px-lg-2">
                     <div className="home-page-first-sec-left">
                        <div id="fist-sec-main-tit" className="fist-sec-main-tit" >
                        <h1 className="i" data-aos="fade-up" data-aos-duration="100" >
@@ -33,7 +33,7 @@ function FirstSection(){
                        </a> */}
                     </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-lg-6 col-12 px-0 px-lg-2 mt-lg-0 mt-md-5 mt-3">
                 <div className="home-page-first-sec-right">
                     <div className="rocket-boy">
                         {/* <video src={FirstImg} autoPlay loop height="560px"></video> */}

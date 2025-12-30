@@ -68,7 +68,7 @@ function Services() {
   const navigate = useNavigate();
   return (
     <>
-      <section id="services" className="services-sec">
+      <section id="services" className="services-sec overflow-hidden">
         <div className="container-fluid">
           <div className="row">
             <div className="our-container">
@@ -86,7 +86,7 @@ function Services() {
               <div className="row">
 
                 {servicesData.map((service) => (
-                  <div className="col-md-4" key={service.id}>
+                  <div className="col-lg-4 services-data-grid" key={service.id}>
                     <div
                       className="service-card"
                       data-aos="fade-up"

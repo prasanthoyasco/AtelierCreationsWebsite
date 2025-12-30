@@ -33,15 +33,15 @@ const Home = () => {
       <Services />
       <WhatWeDo />
       <HowWeWork />
-      <Testimonial />
+      {/* <Testimonial />
       <CaseStudy />
       <BenefitsWWU />
-      <ContentMarketing />
+      <ContentMarketing /> */}
       {/* <DiscoverUs /> */}
-      <Contacts />
-      <SocialMediaSec />
+      {/* <Contacts />
+      <SocialMediaSec /> */}
       {/* <FreelancerHub /> */}
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }

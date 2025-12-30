@@ -1,8 +1,9 @@
 import atelier from "../src/assets/home/header-logo.png"
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 function Header(){
+   const [openDropDown,setOpenDropDown] = useState(false)
    useEffect(() => {
      const nav = document.getElementById('nav');
 let top = window.scrollY;
@@ -47,11 +48,41 @@ window.addEventListener("scroll", () => {
                freelancer Hub
                </a> */}
 
-               <div className="handburger-menu">
+               <div onClick={()=>setOpenDropDown(!openDropDown)} className="handburger-menu">
                   <span className="line-1"></span>
                   <span className="line-2"></span>
                   <span className="line-3"></span>
                </div>
+               {openDropDown && (
+          <div className="mobile-dropdown">
+            <ul>
+              <li onClick={() => setOpenDropDown(false)}>
+                <Link to="/">Home</Link>
+              </li>
+              <li onClick={() => setOpenDropDown(false)}>
+                <a href="/#about-us">About</a>
+              </li>
+              <li onClick={() => setOpenDropDown(false)}>
+                <a href="/#services">Services</a>
+              </li>
+              <li onClick={() => setOpenDropDown(false)}>
+                <a href="/#case-study">Case study</a>
+              </li>
+              <li onClick={() => setOpenDropDown(false)}>
+                <a
+                  href="https://forms.gle/Z93DK6jRqdWmGGxZ9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Careers
+                </a>
+              </li>
+              <li onClick={() => setOpenDropDown(false)}>
+                <a href="/#blogs">Blogs</a>
+              </li>
+            </ul>
+          </div>
+        )}
             </header>
          </div>
       </div>

@@ -36,7 +36,7 @@
     }
     .h-w-w-card-img{
         width: 244px;
-        height: 227px;
+        height: 287px;
     }
     .hww-num{
         display: none;
@@ -188,7 +188,6 @@
     }
     .header{
         padding: 0rem 1rem;
-        justify-content: flex-start;
     }
     .fist-sec-main-tit::after{
         right: 0px;
@@ -795,7 +794,39 @@
 
 
 
-
+@media (max-width:480px) {
+    .home-page-first-sec-left{
+        padding: 1rem 0;
+    }
+        .home-page-first-sec{
+        left: 50%;
+    }
+        .services-data-grid{
+        width:100%;
+    }
+    .what-we-do-sec{
+        padding: 0;
+    }
+    .How-we-work-sec{
+        padding: 0;
+    }
+    .h-w-w-main-tit{
+        margin-bottom: 0;
+    }
+    .h-w-w-card-img{
+        place-content: start;
+        margin-top: 10px;
+        height: fit-content;
+    }
+    .h-w-w-card-cont{
+        padding-bottom: 0;
+    }
+}
+@media (max-width:320px) {
+    .home-page-first-sec-left{
+        padding: 1rem 2rem;
+    }
+}
 
 
 

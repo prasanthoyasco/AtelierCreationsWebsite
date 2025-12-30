@@ -10,16 +10,16 @@ import PaidAds from "../src/assets/what-we-do/paid-ads.svg"
 function whatWeDo(){
    return (
     <>
-    <section id="about-us"  className="what-we-do-sec" >
+    <section id="about-us"  className="what-we-do-sec mt-0" >
       <div className="container-2">
         <div className="row">
-        <div className="col-md-6">
+        <div className="col-lg-6 col-10 mx-auto">
                 <div className="what-we-do-main-img-1 " data-aos="fade-right" data-aos-duration="1000" >
                     <img src={PaidAds} alt="" width="650" height="951"  />
                     {/* <video src={SectionTwoVideo} autoPlay loop height="560px"></video> */}
                 </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-lg-6 col-md-10 col-12">
             <div className="tit-wraper-1">
             <span className="tit-sub"><div>// </div> About Us</span>
             <h3 className="what-we-do-secondry-tit" data-aos="fade-left" data-aos-duration="1000">

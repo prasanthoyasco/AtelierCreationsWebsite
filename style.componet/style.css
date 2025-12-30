@@ -2802,7 +2802,7 @@ transition: 0.5s;
 
 .line-1 , .line-2 , .line-3{
     border-bottom: 3px solid black;
-    width: 40px;
+    width: 30px;
     position: relative;
 }
 
