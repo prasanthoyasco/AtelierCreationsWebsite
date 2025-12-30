@@ -9,14 +9,14 @@ function BenefitsWWU(){
     <>
     <section id="one"  className="what-we-do-sec-1">
       <div className="container-2">
-        <div className="row">
-        <div className="col-md-6">
+        <div className="row ">
+        <div className="col-lg-6 col-md-10 col-12">
        
                 <div className="what-we-do-main-img">
                     <img src={BrnifitsPageSvg} alt="" width="550" height="550" loading="lazy" />
                 </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-lg-6 col-md-10 col-12 mt-0 mt-lg-0 mt-md-5">
             <div className="tit-wraper-1 mb-4">
             <span className="tit-sub"><div>//</div>  Benifits</span>
             <h3 className="what-we-do-secondry-tit-1" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="0">
