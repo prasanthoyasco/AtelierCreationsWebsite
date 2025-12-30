@@ -46,14 +46,14 @@ function App(){
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/best-creative-ui-ux-design-service-company" element={<UIUX />} />
-        <Route path="/web-development-company-india" element={<WebDevelopment />} />
-        <Route path="/top-seo-ranking-specialist" element={<SEO />} />
-        <Route path="/mobile-app-development-company-india" element={<MobileAppDevelopment />} />
+        {/* <Route path="/best-creative-ui-ux-design-service-company" element={<UIUX />} /> */}
+        {/* <Route path="/web-development-company-india" element={<WebDevelopment />} /> */}
+        {/* <Route path="/top-seo-ranking-specialist" element={<SEO />} /> */}
+        {/* <Route path="/mobile-app-development-company-india" element={<MobileAppDevelopment />} /> */}
         <Route path="/best-social-media-marketing-advertising-agency" element={<SMM />} />
         <Route path="/top-2d-3d-graphics-designing-service-agency" element={<GraphicDesign />} />
         <Route path="/top-paid-advertising-company" element={<PaidAdvertising />} />
-        <Route path="/development" element={<Development />} />
+        {/* <Route path="/development" element={<Development />} /> */}
         <Route path="/best-hr-management-software-service-agency" element={<HRMS />} />
         <Route path="/best-crm-software-service-agency" element={<CRM />} />
         <Route path="/BusinessSoftware" element={<BusinessSoftware />} />
@@ -65,7 +65,7 @@ function App(){
         <Route path="/blog" element={<BlogDetail />} />
         <Route path="/Helpful-Content-King" element={<Blog1 />} />
         <Route path="/the-role-ai-modern-design" element={<BlogDesignPage2 />} />
-        <Route path="/branding" element={<Branding />} />
+        {/* <Route path="/branding" element={<Branding />} /> */}
         <Route path="/ServiceOne" element={<ServiceOne />} />
       </Routes>
       </BrowserRouter>
