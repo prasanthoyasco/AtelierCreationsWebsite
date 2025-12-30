@@ -64,7 +64,7 @@ const Testimonial = () => {
               </p>
               <div className="reviwers">
                 <div className="reviwers-img">
-                  <img src={Testimonial2} alt="Reviewer" height="" width="" loading="lazy" title="" />
+                  <img src="https://img.freepik.com/premium-photo/front-view-mid-body-shot-extremely-handsome-indian-male-model-dressed-as-translator_1078199-795.jpg?uid=R175611833&ga=GA1.1.1276842385.1760516584&semt=ais_hybrid&w=740&q=80" alt="Reviewer" height="" width="" loading="lazy" title="" />
                 </div>
                 <div className="reviwers-txt">
                   <h3 className="reviwers-name">Rohit Mehta</h3>
@@ -92,7 +92,7 @@ const Testimonial = () => {
               </p>
               <div className="reviwers">
                 <div className="reviwers-img">
-                  <img src={Testimonial3} alt="Reviewer" height="" width="" loading="lazy" title=""  />
+                  <img src="https://img.freepik.com/premium-photo/man-with-beard-poses-photo_1018793-987.jpg?uid=R175611833&ga=GA1.1.1276842385.1760516584&semt=ais_hybrid&w=740&q=80" alt="Reviewer" height="" width="" loading="lazy" title=""  />
                 </div>
                 <div className="reviwers-txt">
                   <h3 className="reviwers-name">Priya Sharma</h3>
@@ -121,7 +121,7 @@ const Testimonial = () => {
               </p>
               <div className="reviwers">
                 <div className="reviwers-img">
-                  <img src={Testimonial4} alt="Reviewer" height="" width="" loading="lazy" title="" />
+                  <img src="https://img.freepik.com/premium-photo/portrait-young-man-standing-against-brick-wall_1048944-26117654.jpg?uid=R175611833&ga=GA1.1.1276842385.1760516584&semt=ais_hybrid&w=740&q=80" alt="Reviewer" height="" width="" loading="lazy" title="" />
                 </div>
                 <div className="reviwers-txt">
                   <h3 className="reviwers-name">Anjali Desai</h3>
@@ -150,7 +150,7 @@ const Testimonial = () => {
               </p>
               <div className="reviwers">
                 <div className="reviwers-img">
-                  <img src={Testimonial5} alt="Reviewer" height="" width="" loading="lazy" title="" />
+                  <img src="https://img.freepik.com/premium-photo/good-looking-indian-young-male-wearing-shirt-generative-ai_802140-1336.jpg?uid=R175611833&ga=GA1.1.1276842385.1760516584&semt=ais_hybrid&w=740&q=80" alt="Reviewer" height="" width="" loading="lazy" title="" />
                 </div>
                 <div className="reviwers-txt">
                   <h3 className="reviwers-name">Rajiv Nair </h3>
@@ -179,7 +179,7 @@ const Testimonial = () => {
               </p>
               <div className="reviwers">
                 <div className="reviwers-img">
-                  <img src={Testimonial6} alt="Reviewer" height="" width="" loading="lazy" title="" />
+                  <img src="https://img.freepik.com/premium-photo/man-with-his-arms-crossed-word-word-front_916191-428856.jpg?uid=R175611833&ga=GA1.1.1276842385.1760516584&semt=ais_hybrid&w=740&q=80" alt="Reviewer" height="" width="" loading="lazy" title="" />
                 </div>
                 <div className="reviwers-txt">
                   <h3 className="reviwers-name">Neha Kapoor</h3>
@@ -207,7 +207,7 @@ const Testimonial = () => {
               </p>
               <div className="reviwers">
                 <div className="reviwers-img">
-                  <img src={ReviwersImg} alt="Reviewer" height="" width="" loading="lazy" title="" />
+                  <img src="https://img.freepik.com/premium-photo/photo-bokeh-isolated-blue-color-background_926199-3108694.jpg?uid=R175611833&ga=GA1.1.1276842385.1760516584&semt=ais_hybrid&w=740&q=80" alt="Reviewer" height="" width="" loading="lazy" title="" />
                 </div>
                 <div className="reviwers-txt">
                   <h3 className="reviwers-name">Arjun Patel</h3>

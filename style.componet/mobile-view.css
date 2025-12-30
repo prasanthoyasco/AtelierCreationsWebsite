@@ -881,7 +881,7 @@
         width: 90%;
     }
     .home-page-first-sec{
-        z-index: 9999;
+        z-index: 1;
         margin-bottom: 0;
     }
     .servi-point-sec-left-box{
