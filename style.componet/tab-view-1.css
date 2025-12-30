@@ -504,4 +504,14 @@
     .service-detailed-sec h2{
         padding-left: 1rem;
     }
+    .faq-container{
+        max-width: none;
+        width: 90%;
+    }
+        .contact-card-sec{
+        margin: 2rem auto;
+    }
+    .faq-section{
+        padding-bottom: 0;
+    }
 }
