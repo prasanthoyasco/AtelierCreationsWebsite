@@ -928,6 +928,19 @@
         .mobile-development-page-grid{
         width: 100%;
     }
+    .service-detailed-sec{
+        text-align: start;
+    }
+    .service-detailed-main-para{
+        width: 90%;
+    }
+    .serv-point-sec-container{
+        padding-bottom: 2rem;
+    }
+    .faq-tit{
+        margin: 0;
+        padding-left: 1rem;
+    }
 }
 @media (max-width:380px) {
     .home-page-first-sec-left{
