@@ -217,4 +217,18 @@
     .case-study-sec::after,.case-study-sec::before{
         bottom: -1px;
     }
+    .h-w-w-main-tit-1::before{
+        top: -160px;
+    }
+.content-marketing-card {
+        flex-direction: column;
+        height: fit-content;
+        padding: 2rem;
+        gap: 20px;
+    }
+    .content-m-main-cont,
+    .content-m-main-img,
+    .content-m-main-img img{
+        width: 100%;
+    }
 }

@@ -849,6 +849,9 @@
     .services-sec{
         top: -3px;
     }
+    .content-marketing-sec{
+        top: -14rem;
+    }
 }
 @media (max-width:380px) {
     .home-page-first-sec-left{

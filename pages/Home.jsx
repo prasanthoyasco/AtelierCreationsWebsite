@@ -36,7 +36,7 @@ const Home = () => {
       <Testimonial />
       <CaseStudy />
       <BenefitsWWU />
-      {/* <ContentMarketing /> */}
+      <ContentMarketing />
       {/* <DiscoverUs /> */}
       {/* <Contacts />
       <SocialMediaSec /> */}
